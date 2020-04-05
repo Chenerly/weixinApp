@@ -1,0 +1,15 @@
+<!--miniprogram/pages/core/core.wxml-->
+
+<view wx:for="{{name}}" wx:key="_id">
+  <!-- {{index}}: {{item.message}} -->
+  course:<label>{{item.course}}</label>
+  cre:<label>{{item.cre}}</label>
+  score:<label>{{item.score}}</label>
+</view>
+<!-- <view>
+ <view wx:for="{{name}}" wx:key="_id">
+ course:<label>{{item.course}}</label>
+ cre:<label>{{item.cre}}</label>
+ score:<label>{{item.score}}</label>
+ </view>
+</view> -->

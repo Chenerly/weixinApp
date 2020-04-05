@@ -1,0 +1,21 @@
+<!--miniprogram/pages/show/show.wxml-->
+
+<i-tabs current="{{ current }}" bindchange="handleChange" fixed="true">
+    <i-tab key="tab1" title="选项1"></i-tab>
+    <i-tab key="tab2" title="选项2"></i-tab>
+    <i-tab key="tab3" title="选项3"></i-tab>           
+    <i-tab key="tab4" title="选项4"></i-tab>
+</i-tabs>
+
+
+  <view class="bottom" >
+  <i-tabs current="{{ current }}" bindchange="handleChange" >
+  <i-tab key="tab1" title="2016"></i-tab>
+    <text class="bottom_line"></text>
+    <i-tab key="tab2" title="2017"></i-tab>
+    <text class="bottom_line"></text>
+    <i-tab key="tab3" title="2018"></i-tab>
+    <text class="bottom_line"></text>
+    <i-tab key="tab4" title="2019"></i-tab>
+</i-tabs>
+  </view>
